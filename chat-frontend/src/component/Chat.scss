@@ -1,0 +1,25 @@
+.chat-body {
+  height: 450px;
+  overflow-y: auto;
+  background: #f8f9fa;
+}
+
+.message-wrapper {
+  margin-bottom: 15px;
+}
+
+.message-sender {
+  font-weight: 600;
+  color: #0d6efd;
+  margin-bottom: 4px;
+}
+
+.message-content {
+  display: inline-block;
+  padding: 8px 14px;
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  max-width: 80%;
+  word-break: break-word;
+}
